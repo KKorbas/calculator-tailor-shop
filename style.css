@@ -1,0 +1,118 @@
+/* font-family: 'Alex Brush', cursive;
+font-family: 'Poppins', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: #54595F;
+}
+
+.wrapper {
+    width: 400px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    position: relative;
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/26/18/42/cloth-1772173_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+h1,
+h2 {
+    z-index: 1;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.name {
+    font-family: 'Alex Brush', cursive;
+    font-size: 60px;
+    margin-left: 10px;
+    color: #545E8C;
+    text-transform: none;
+    font-weight: 300;
+}
+
+.center {
+    padding: 30px 40px;
+    background-color: rgb(244, 244, 244);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+button {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 60%;
+    padding: 10px 10px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    color: #54595F;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFD6E0;
+    cursor: pointer;
+    transition: .4s;
+}
+
+button:hover {
+    background-color: #ff9ab3;
+}
+
+.bottom {
+    background-color: #545E8C;
+    padding: 30px 40px;
+    text-align: center;
+    color: rgb(244, 244, 244);
+}
+
+.count {
+    display: none;
+}
+
+.price {
+    font-weight: bold;
+}
